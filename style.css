@@ -1,0 +1,344 @@
+    /* CSS styles here */
+    body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      .rover-header-container {
+        background-color: #d1e1d8;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        padding: 0 20px;
+      }
+  
+      .logo {
+        height: 40px;
+      }
+  
+      .rover-header-left {
+        display: flex;
+        align-items: center;
+      }
+  
+      .rover-header-left a {
+        color: #1c1010;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+      }
+  
+      .rover-header-left i {
+        margin-right: 5px;
+      }
+
+      .rover-header-right{
+        display: flex;
+        flex-direction: row;
+
+      }
+  
+      .rover-header-right a {
+        color: #1e1717;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+       
+      }
+  
+      .rover-header-right i {
+        margin-right: 5px;
+        display: flex;
+        flex-direction: row;
+      }
+  
+      /* Mobile view styles */
+      @media (max-width: 768px) {
+        .rover-header-left, .rover-header-right {
+          display: none;
+        }
+  
+        .nav-bar {
+          display: flex;
+          align-items: center;
+        }
+  
+        .dropdown {
+          position: relative;
+        }
+  
+        .dropdown button {
+          background-color: transparent;
+          color: #fff;
+          font-size: 24px;
+          border: none;
+          cursor: pointer;
+        }
+  
+        .dropdown-content {
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background-color: #2ac5b8;
+          min-width: 200px;
+          padding: 10px;
+          display: none;
+        }
+  
+        .dropdown-content .dc-section {
+          margin-bottom: 10px;
+        }
+  
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+  
+        .dropdown-content a {
+          display: block;
+          color: #fff;
+          font-size: 16px;
+          text-decoration: none;
+          margin-bottom: 5px;
+        }
+  
+        .dropdown-content h4 {
+          color: #fff;
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+      }
+
+
+      .nav-bar .dropdown {
+        position: relative;
+      }
+  
+      .nav-bar .dropdown button {
+        background-color: transparent;
+        color: #fff;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .nav-bar .dropdown-content {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #333;
+        min-width: 200px;
+        padding: 10px;
+        display: none;
+      }
+  
+      .nav-bar .dropdown-content .dc-section {
+        margin-bottom: 10px;
+      }
+  
+      .nav-bar .dropdown:hover .dropdown-content {
+        display: block;
+      }
+  
+      .nav-bar .dropdown-content a {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        margin-bottom: 5px;
+      }
+  
+      .nav-bar .dropdown-content h4 {
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      /* .rover-hero-container{
+
+        border: 1px solid red;
+        height: 20rem;
+      }
+  .image {
+    height: 20rem;
+    width: 100%;
+
+  } */
+
+  .rover-hero-container {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    justify-items: left;
+    /* position: relative; */
+  }
+
+  .rover-hero-container .image {
+    width: 100%;
+    height: 30rem;
+  }
+
+  .rover-hero-container .content {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .rover-hero-container .content h1 {
+    font-size: 36px;
+    color: #161313;
+    margin-bottom: 20px;
+  }
+
+  .rover-hero-container .content p {
+    font-size: 18px;
+    color: #0d0c0c;
+    /* margin-bottom: 20px; */
+  }
+
+  .center {
+    align-items: center;
+    text-align: center;
+  }
+
+  .rover-facts-container{
+    border: 1px solid rgb(28, 41, 137);
+    width: 90%;
+   margin-left: 4rem;
+   display: flex;
+   flex-direction: row;
+  
+  }
+
+
+  .rover-fact-indiv-1 {
+   
+    display: flex;
+    flex-direction: row;
+
+  }
+  .rover-fact-indiv-2 {
+ 
+    display: flex;
+    flex-direction: row;
+
+  }
+  .rover-fact-indiv-3 {
+    
+    display: flex;
+    flex-direction: row;
+
+  }
+  .rover-fact-indiv-4 {
+  
+    display: flex;
+    flex-direction: row;
+
+  }
+  .rover-fact-indiv-5 {
+  
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .image-size {
+    width: 5rem;
+    height: 5rem;
+  }
+
+
+  .image-size1 {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    border: 1px solid rgb(28, 12, 109);
+ 
+    
+  }
+
+  .flex-col1{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    border: 1px solid rgb(28, 12, 109);
+    margin-bottom: 20rem;
+    
+  }
+
+
+
+
+  .rover-cta-box{
+    border: 1px solid rgb(28, 12, 109);
+
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction:row;
+    border: 1px solid rgb(28, 12, 109);
+    justify-content: space-around;
+
+  }
+
+
+  .flex-row1 {
+    display: flex;
+    flex-direction:row;
+    border: 1px solid rgb(28, 12, 109);
+  background-color: antiquewhite;
+  justify-content: center;
+
+  }
+
+  .rover-cta{
+
+    background-color: #1a7e76;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height:3rem ;
+  }
+
+
+
+.rover-123-item-container{
+    border: 1px solid rgb(18, 79, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rover-mobile-hero-container{
+  
+    display: flex;
+    justify-content: center;
+}
+
+.image-align {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+    margin-left: 20rem;
+    width: 30rem;
+    height: 30rem;
+
+}
